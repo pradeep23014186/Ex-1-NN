@@ -1,18 +1,18 @@
 <H3>NAME: Pradeep kumar G</H3>
 <H3>REGISTER NO: 212223230150</H3>
 <H3>EX. NO.1</H3>
-<H3>DATE:</H3>
+<H3>DATE: 21/08/2025</H3>
 <H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
 
-## AIM:
+# AIM:
 
 To perform Data preprocessing in a data set downloaded from Kaggle
 
-## EQUIPMENTS REQUIRED:
+# EQUIPMENTS REQUIRED:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
-## RELATED THEORETICAL CONCEPT:
+# RELATED THEORETICAL CONCEPT:
 
 **Kaggle :**
 Kaggle, a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
@@ -28,7 +28,7 @@ For achieving better results from the applied model in Machine Learning projects
 Another aspect is that the data set should be formatted in such a way that more than one Machine Learning and Deep Learning algorithm are executed in one data set, and best out of them is chosen.
 
 
-## ALGORITHM:
+# ALGORITHM:
 STEP 1:Importing the libraries<BR>
 STEP 2:Importing the dataset<BR>
 STEP 3:Taking care of missing data<BR>
@@ -36,7 +36,7 @@ STEP 4:Encoding categorical data<BR>
 STEP 5:Normalizing the data<BR>
 STEP 6:Splitting the data into test and train<BR>
 
-##  PROGRAM:
+#  PROGRAM:
 ```py
  import pandas as pd
  import io
@@ -68,29 +68,35 @@ STEP 6:Splitting the data into test and train<BR>
  x_test
 ```
 
-## OUTPUT:
-# DATASET:
+# OUTPUT:
+## DATASET:
 <img width="1388" height="497" alt="image" src="https://github.com/user-attachments/assets/fd421f1b-86be-4a72-92b8-8cb5fb1b8be1" />
 
-# MISSING VALUES:
+## MISSING VALUES:
 <img width="228" height="339" alt="image" src="https://github.com/user-attachments/assets/8db399ba-30c2-46ae-bf80-0f652cb21e04" />
 
-# DUPLICATES:
+## DUPLICATES:
 <img width="314" height="271" alt="image" src="https://github.com/user-attachments/assets/4608c4a9-b995-486f-a6df-92a60c6fbce7" />
 
-# OUTLIERS (SALARY):
+## OUTLIERS (SALARY):
 <img width="343" height="205" alt="image" src="https://github.com/user-attachments/assets/1a346111-dc5c-4a6e-badd-1ae252f78c8f" />
 
-# NORMALIZED DATASET:
+## NORMALIZED DATASET:
 <img width="1379" height="518" alt="image" src="https://github.com/user-attachments/assets/83d69416-5792-40b9-86e4-ff0fa02828ba" />
 
-# X_VALUES:
+## X_VALUES:
+<img width="1171" height="448" alt="image" src="https://github.com/user-attachments/assets/d1b2f7c7-1f2e-4034-875a-1f29626a5002" />
 
+## Y_VALUES:
+<img width="412" height="290" alt="image" src="https://github.com/user-attachments/assets/24e4a501-dfea-4c3c-87a1-3700e373760f" />
 
+## SPLITTING THE DATASET FOR TRAINING AND TESTING :
 
- 
+## TRAINING_DATA :
+<img width="1377" height="536" alt="image" src="https://github.com/user-attachments/assets/42c2c20d-7c43-439e-b190-0f6d8a1a25de" />
 
-## RESULT:
+## TESTING_DATA :
+<img width="1379" height="537" alt="image" src="https://github.com/user-attachments/assets/2556602c-92e0-4996-bb0d-69b90c352aad" />
+
+# RESULT:
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
-
-
